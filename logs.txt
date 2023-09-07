@@ -1,0 +1,11 @@
+commit 0f48a0ab7cac6f6b344b9dc98ade14b356e3ffec
+Author: CCDM26 <CCDM26@CCDM26.local>
+Date:   Thu Sep 7 12:43:13 2023 -0700
+
+    Titulo y encabezado
+
+commit dfb9a016c2cc9b6192ed5a065c4ed26e5a4b0d54
+Author: CCDM26 <CCDM26@CCDM26.local>
+Date:   Thu Sep 7 12:35:13 2023 -0700
+
+    Commit inicial
