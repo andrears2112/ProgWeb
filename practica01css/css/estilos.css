@@ -1,8 +1,8 @@
 body{
     font-size: 16px; /* 1em */
     border: 1px solid red;
-    max-width: 1024px;
     margin: 0px auto;
+    max-width: 1024px;
 }
 
 header{
@@ -21,22 +21,23 @@ header nav form input{
     border-radius: 5px;
 }
 
-header nav form input[type="submit"]{
-    background: green;
-    color: white;
-    border: 1px solid green;
-}
-
 header nav ul li{
+    /*border: 1px solid red;*/
+    display: inline-block;
     color: white;
     margin-right: 20px;
-    display: inline-block;
 }
 
 header nav form{
     float: right;
     margin-top: -35px;
     margin-right: 20px;
+}
+
+header nav form input[type="submit"]{
+    background: green;
+    color: white;
+    border: 1px solid green;
 }
 
 #logo{
@@ -53,5 +54,36 @@ header nav form{
 
 #seccion01 article img{
     width: 98%;
-    border: 5px solid rgb(150, 150, 150,0.5);
+    border: 5px solid rgba(150, 150, 150, 0.5);
+}
+
+#seccion02{
+    margin-bottom: 50px;
+}
+
+#seccion02 article{
+    width: 33.0%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 12px;
+    margin-left: 30%;
+}
+
+.unaSeccion{
+    font-size: 4.5em; /*<------- 16px X 4.5*/
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.otraSeccion{
+    font-size: 2.5em;
 }
